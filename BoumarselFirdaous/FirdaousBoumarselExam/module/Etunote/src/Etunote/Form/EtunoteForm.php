@@ -37,7 +37,7 @@ class EtunoteForm extends Form
 		));
 		$this->add(array(
 				'name' => 'note',
-				'type' => 'int',
+				'type' => 'Text',
 				'options' => array(
 						'label' => 'Note',
 				),
