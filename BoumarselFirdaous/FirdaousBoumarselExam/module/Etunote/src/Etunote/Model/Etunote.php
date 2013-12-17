@@ -1,11 +1,11 @@
 <?php 
-namespace Exam\Model;
+namespace Etunote\Model;
 
 use Zend\InputFilter\InputFilter;
 use Zend\InputFilter\InputFilterAwareInterface;
 use Zend\InputFilter\InputFilterInterface;
 
- class Exam implements InputFilterAwareInterface
+ class Etunote implements InputFilterAwareInterface
  {
      public $id;
      public $etu;

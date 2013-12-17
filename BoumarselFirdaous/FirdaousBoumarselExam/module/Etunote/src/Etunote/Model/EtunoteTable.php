@@ -15,7 +15,8 @@ class EtunoteTable
 
 	public function fetchAll()
 	{
-		$resultSet = $this->tableGateway->select();
+	    $resultSet = $this->tableGateway->select();
+		
 		return $resultSet;
 	}
 
@@ -36,7 +37,7 @@ class EtunoteTable
 				'etu' => $etunote->etu,
 				'exercice'  => $etunote->exercice,
 		        'cours'  => $etunote->cours,
-		        'note'  => $etunote->note,
+		        'note'  => $etunote->note
 		    
 		   
 		);
